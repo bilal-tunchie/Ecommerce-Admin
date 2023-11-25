@@ -1,7 +1,6 @@
 import { redirect } from 'next/navigation';
 import { auth } from '@clerk/nextjs';
 
-import prismadb from '@/lib/prismadb';
 import { getStoreByGuest } from '@/actions/get-store-by-guest';
 import { signOutGuest } from '@/actions/sign-out-guest';
 
