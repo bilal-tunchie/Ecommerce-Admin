@@ -17,6 +17,4 @@ export default async function DashboardLayout() {
     if (!userId && !guestId) redirect('/sign-in');
 
     redirect('/');
-
-    return null
 };
