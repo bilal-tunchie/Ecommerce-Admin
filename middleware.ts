@@ -8,8 +8,8 @@ export default authMiddleware({
         "/api/:path*",
         "/",
         "/store",
-        "/store/187cdea1-c18f-4756-b77c-bf8908e2939b",
-        "/store/187cdea1-c18f-4756-b77c-bf8908e2939b/:path*",
+        "/store/a16be9bf-3ebb-44da-9070-2d96d007478d",
+        "/store/a16be9bf-3ebb-44da-9070-2d96d007478d/:path*",
     ]
 });
 

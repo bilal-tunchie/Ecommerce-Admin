@@ -3,6 +3,7 @@ import { auth } from '@clerk/nextjs';
 import { NextResponse } from 'next/server';
 
 export const POST =  async (req: Request) => {
+    console.log(process.env.STORE_ID_FOR_GUEST_USER)
     try {
         const store = await prismadb.store.update({
             where: {
